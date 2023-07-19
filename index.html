@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Build Con</title>
+    <link rel="icon" href="SVG/bootstrap-fill.svg" type="image/x-icon">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Custom Css End-->
+
+
+    <!-- Bootstrap Css & Js -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous" defer></script>
+    <!-- Bootstrap Css & Js End -->
+
+
+    <!-- SwiperJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
+    <!-- SwiperJS End -->
+
+
+    <!-- Custom Script -->
+    <script src="scripts/main.js" defer></script>
+    <!-- Custom Script End -->
+
+
+    <!-- Bootstrap icond -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Bootstrap icond End -->
+</head>
+<body>
+  <!-- Up button -->
+  <a href="#" class="up-button btn-hidden">
+    <i class="bi bi-arrow-up-circle-fill"></i>
+  </a>
+  <!-- Up button End -->
+
+
+    <header class="fixed-top">
+        <nav class="navbar nav-pills navbar-expand-lg bg-body-tertiary shadow-sm px-sm-0 px-3" id="navbar">
+            <div class="container">
+              <a class="navbar-brand text-uppercase fw-bold fs-3" href="#" title="BuildCon"><span class="text-warning">Build</span>Con</a>
+
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+
+              <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item fs-6 text-uppercase fw-medium">
+                    <a class="nav-link text-black text-center active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item fs-6 text-uppercase fw-medium">
+                    <a class="nav-link text-black text-center" href="#about">About</a>
+                  </li>
+                  <li class="nav-item fs-6 text-uppercase fw-medium">
+                    <a class="nav-link text-black text-center" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item fs-6 text-uppercase fw-medium">
+                    <a class="nav-link text-black text-center" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item fs-6 text-uppercase fw-medium">
+                    <a class="nav-link text-black text-center" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item fs-6 text-uppercase fw-medium">
+                    <a class="nav-link text-black text-center" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <main data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0">
+        <!-- Image Slider -->
+        <section id="home" class="landing-page">
+          <div class="swiper landing-swiper">
+            <div class="swiper-wrapper">   
+    
+              <div class="swiper-slide p-5" style="background-image: url(images/home-5.jpg);">
+                <div class="slider-content slider-content-1 z-2">
+                  <h2 class="text-uppercase display-1 text-light">Tbilisi</h2>
+                  <button type="button" class="btn btn-outline-warning rounded-pill btn-lg mt-3">See more</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide" style="background-image: url(images/home-6.jpg);">
+                <div class="slider-content slider-content-2 z-2">
+                  <h2 class="text-uppercase display-1 text-light">Yazbegi</h2>
+                  <button type="button" class="btn btn-outline-warning rounded-pill btn-lg mt-3">See more</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide" style="background-image: url(images/home-7.jpg);">
+                <div class="slider-content slider-content-3 z-2">
+                  <h2 class="text-uppercase display-1 text-light">Batumi</h2>
+                  <button type="button" class="btn btn-outline-warning rounded-pill btn-lg mt-3">See more</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide" style="background-image: url(images/home-8.jpg);">
+                <div class="slider-content slider-content-4 z-2">
+                  <h2 class="text-uppercase display-1 text-light">Rustavi</h2>
+                  <button type="button" class="btn btn-outline-warning rounded-pill btn-lg mt-3">See more</button>
+                </div>
+              </div>
+
+            </div>
+    
+    
+            <div class="swiper-button-next custom-nav-btn text-body-secondary"></div>
+            <div class="swiper-button-prev custom-nav-btn text-body-secondary"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+    
+        <!-- Image Slider End-->
+    
+    
+        <!-- About us-->
+        <section id="about" class="x-section-padding">
+            <div class="container">
+                <div class="row gx-2 px-3">
+                    <div class="col-12 col-lg-6 col-xl-4 h-auto p-0">
+                        <img src="images/about.jpg" class="w-100 rounded" alt="about_us">
+                    </div>
+
+                    <div class="col-12 col-lg-6 col-xl-8 px-0 pt-5 px-lg-5 pt-lg-0 pt-xxl-5">
+                        <h2 class="display-5 fw-medium">We Provide the Best Quality Services Ever</h2>
+                        <p class="my-3 lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus cupiditate aperiam nostrum voluptate iusto. Quidem excepturi voluptate enim in eum dolorum quibusdam maiores voluptas, possimus perspiciatis neque nobis recusandae vel expedita asperiores veniam soluta esse debitis perferendis incidunt nisi autem?</p>
+                        <button type="button" class="btn btn-warning">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About us End-->
+
+
+        <!-- Services -->
+        <section id="services" class="x-section-padding">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-12 text-center px-3">
+                        <h2 class="display-5 fw-medium">Our Services</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Explicabo, sed.</p>
+                    </div>
+                    
+                    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card bg-dark text-light align-items-center p-4 h-100">
+                            <i class="bi bi-laptop display-3"></i>
+                            <div class="card-body text-center">
+                              <h3 class="card-title">Best Quality</h3>
+                              <p class="card-text lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate aut iste ipsam reiciendis doloribus, eius, suscipit sequi earum non.</p>
+                            </div>
+                            <a href="#" class="btn btn-warning">Read More</a>
+                          </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card bg-dark text-light align-items-center p-4 h-100">
+                            <i class="bi bi-journal display-3"></i>
+                            <div class="card-body text-center">
+                              <h3 class="card-title">Sustainability</h3>
+                              <p class="card-text lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores odio ea exercitationem blanditiis vero architecto, quisquam perferendis et, iste rem.</p>
+                            </div>
+                            <a href="#" class="btn btn-warning">Read More</a>
+                          </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card bg-dark text-light align-items-center p-4 h-100">
+                            <i class="bi bi-intersect display-3"></i>
+                            <div class="card-body text-center">
+                              <h3 class="card-title">Integrity</h3>
+                              <p class="card-text lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eius quod quo eligendi quaerat nisi eum! Animi repellendus doloremque tempore possimus ad commodi quam quisquam.</p>
+                            </div>
+                            <a href="#" class="btn btn-warning">Read More</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services End -->
+
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="x-section-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center px-3">
+                <h2 class="display-5 fw-medium">Our Projects</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Explicabo, sed.</p>
+            </div>
+
+              <div class="col-12">
+                <div class="swiper portfolio-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="swiper-content">
+                        <img src="images/project-1.jpg" class="rounded shadow-lg" alt="project1">
+                        <div class="project-content text-light">
+                          <h4 class="display-5 text-uppercase">Tbilisi</h4>
+                          <p class="lead"><i class="bi bi-geo-alt-fill"></i> Lorem ipsum dolor sit amet.</p>
+                          <button type="button" class="btn btn-warning">See more</button>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                      <div class="swiper-content">
+                        <img src="images/project-2.jpg" class="rounded shadow-lg" alt="project2">
+                        <div class="project-content text-light">
+                          <h4 class="display-5 text-uppercase">Batumi</h4>
+                          <p class="lead"><i class="bi bi-geo-alt-fill"></i> Lorem ipsum dolor sit amet.</p>
+                          <button type="button" class="btn btn-warning">See more</button>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                      <div class="swiper-content">
+                        <img src="images/project-3.jpg" class="rounded shadow-lg" alt="project3">
+                        <div class="project-content text-light">
+                          <h4 class="display-5 text-uppercase">Bakuriani</h4>
+                          <p class="lead"><i class="bi bi-geo-alt-fill"></i> Lorem ipsum dolor sit amet.</p>
+                          <button type="button" class="btn btn-warning">See more</button>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                      <div class="swiper-content">
+                        <img src="images/project-2.jpg" class="rounded shadow-lg" alt="project4">
+                        <div class="project-content text-light">
+                          <h4 class="display-5 text-uppercase">Rustavi</h4>
+                          <p class="lead"><i class="bi bi-geo-alt-fill"></i> Lorem ipsum dolor sit amet.</p>
+                          <button type="button" class="btn btn-warning">See more</button>
+                        </div>
+                      </div>
+                    </div>
+                  
+                  </div>
+
+                  <div class="swiper-pagination sp-2"></div>
+                  <div class="swiper-button-next custom-nav-btn text-body-secondary s-2-b-n"></div>
+                  <div class="swiper-button-prev custom-nav-btn text-body-secondary s-2-b-p"></div>
+              </div>
+            </div>
+
+
+              
+            </div>
+          </div>
+        </section>
+        <!-- Portfolio End -->
+
+
+        <!-- Team -->
+        <section id="team" class="x-section-padding">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-12 text-center px-3">
+                        <h2 class="display-5 fw-medium">Our Team</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Explicabo, sed.</p>
+                    </div>
+                    
+                    
+                    <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+                        <div class="card align-items-center p-4 h-100 shadow-lg">
+                            <img src="images/team-1.jpg" class="rounded-circle" alt="person1">
+                            <div class="card-body text-center">
+                              <h3 class="card-title">Best Quality</h3>
+                              <p class="card-text lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiit sequi earum non.</p>
+                            </div>
+                            <div class="x-social">
+                                <a href="#home">
+                                    <i class="bi bi-linkedin fs-4"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-twitter fs-4 ps-2 pe-1"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-facebook fs-4 ps-1 pe-2"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-instagram fs-4"></i>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+                        <div class="card align-items-center p-4 h-100 shadow-lg">
+                            <img src="images/team-2.jpg" class="rounded-circle" alt="person2">
+                            <div class="card-body text-center">
+                              <h3 class="card-title">Sustainability</h3>
+                              <p class="card-text lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores oam perferendis et, iste rem.</p>
+                            </div>
+                            <div class="x-social">
+                                <a href="#home">
+                                    <i class="bi bi-linkedin fs-4"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-twitter fs-4 ps-2 pe-1"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-facebook fs-4 ps-1 pe-2"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-instagram fs-4"></i>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+                        <div class="card align-items-center p-4 h-100 shadow-lg">
+                            <img src="images/team-3.jpg" class="rounded-circle" alt="person3">
+                            <div class="card-body text-center">
+                              <h3 class="card-title">Integrity</h3>
+                              <p class="card-text lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eius quod quo eligendi quaermodi quam quisquam.</p>
+                            </div>
+                            <div class="x-social">
+                                <a href="#home">
+                                    <i class="bi bi-linkedin fs-4"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-twitter fs-4 ps-2 pe-1"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-facebook fs-4 ps-1 pe-2"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-instagram fs-4"></i>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+                        <div class="card align-items-center p-4 h-100 shadow-lg">
+                            <img src="images/team-4.jpg" class="rounded-circle" alt="person4">
+                            <div class="card-body text-center">
+                              <h3 class="card-title">Integrity</h3>
+                              <p class="card-text lead">Lorem ipsum dolor sit, amet consectetur od quo eligendi oloremque tempore possimus ad commodi quam quisquam.</p>
+                            </div>
+                            <div class="x-social">
+                                <a href="#home">
+                                    <i class="bi bi-linkedin fs-4"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-twitter fs-4 ps-2 pe-1"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-facebook fs-4 ps-1 pe-2"></i>
+                                </a>
+
+                                <a href="#home">
+                                    <i class="bi bi-instagram fs-4"></i>
+                                </a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team End -->
+
+
+         <!-- Contact -->
+        <section id="contact" class="x-section-padding px-3">
+          <div class="container">
+              <div class="row g-4 px-3 pb-5 rounded-4 shadow-sm" style="background: #f8f9fa;">
+                  <div class="col-12 text-center px-3">
+                      <h2 class="display-5 fw-medium">Our Team</h2>
+                      <p class="lead">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Explicabo, sed.</p>
+                  </div>
+                  
+
+                  <div class="col-12 col-md-6">
+                    <form>
+                      <div>
+                        <label for="contactFullName" class="form-label fw-medium fs-5">Full Name</label>
+                        <input type="text" id="contactFullName" class="form-control">
+                      </div>
+
+                      <div class="my-3">
+                        <label for="contactEmail" class="form-label fw-medium fs-5">Password</label>
+                        <input type="email" id="contactEmail" class="form-control">
+                      </div>
+
+
+                      <div>
+                        <label for="contactMessage" class="form-label fw-medium fs-5">Message</label>
+                        <textarea id="contactMessage" class="form-control placeholder="Write something.."></textarea>
+                      </div>
+
+                      <button type="button" class="btn btn-warning w-100 text-light mt-3 fw-medium fs-5">Send</button>
+
+
+
+
+                    </form>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <iframe class="w-100 h-100 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.39567886239!2d-80.31185919589294!3d25.78253887210818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL%2C%20USA!5e0!3m2!1sen!2sge!4v1689775728663!5m2!1sen!2sge" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <!-- Contact End -->
+    
+    </main>
+
+
+    <footer class="bg-dark text-light text-center py-3">
+      Made By <b>Albert Babayan</b> | 2023
+    </footer>
+
+
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Preloader End -->
+</body>
+</html>
